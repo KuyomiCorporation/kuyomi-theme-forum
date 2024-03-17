@@ -557,3 +557,27 @@ html body #main-outlet {
 .topic-list .main-link.focused {
   box-shadow: none;
 }
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('https://res.cloudinary.com/deozbpo6c/raw/upload/v1709419763/Gotham_Bold_zlxiib.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('https://res.cloudinary.com/deozbpo6c/raw/upload/v1709419763/Gotham_Book_copy_trkbzc.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply Gotham Bold to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gotham Bold', sans-serif;
+}
+
+/* Apply Gotham Book to regular text */
+body {
+    font-family: 'Gotham Book', sans-serif;
+}
+
